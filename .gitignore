@@ -1,0 +1,17 @@
+.DS_Store
+.idea
+.idea/*
+/.env
+_assets
+bower_components
+node_modules
+coverage
+spec/support/logs/*
+dump.rdb
+tmp
+ssl.*
+yarn-error.log
+.nyc_output/
+.idea/workspace.xml
+.idea/workspace.xml
+ff
