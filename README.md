@@ -4,9 +4,7 @@ Place a .eslint.json config in your project with these contents:
 
 Default (less strict):
 ```
-{
-"extends": "@aliencreations"
-}
+{ "extends": "@aliencreations" }
 ```
 
 Install it as a dev dependency in your project:
@@ -23,6 +21,7 @@ First, add a lint script to your package.json:
 ```
   "scripts": {
     "lint": "eslint ."
+    ...
 ```
 
 Then run `yarn lint` or lint with auto-fix `yarn lint --fix`
@@ -32,3 +31,7 @@ Then run `yarn lint` or lint with auto-fix `yarn lint --fix`
 ##### 1.0.0
 
   - Initial commit.
+
+##### 1.0.1
+
+  - Add Github workflow.

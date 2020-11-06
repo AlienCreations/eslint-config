@@ -1,6 +1,6 @@
 {
   "name": "@aliencreations/eslint-config",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Standard Alien Creations eslint configuration",
   "main": "index.js",
   "scripts": {
@@ -9,6 +9,9 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/aliencreations/eslint-config"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
   },
   "author": "Sean Cannon",
   "bugs": {
